@@ -5,14 +5,9 @@
 
   background-color: #fff;
 }
-
-
-
 .stats{
-
-      background: #f2f5f8 !important;
-
-    color: #000 !important;
+  background: #f2f5f8 !important;
+  color: #000 !important;
 }
 .articles{
   font-size:10px;
@@ -24,7 +19,6 @@
 .followers{
     font-size:10px;
   color: #a1aab9;
-
 }
 .number2{
   font-weight:500;
@@ -38,4 +32,14 @@
 }
 .meupost{
   background: #f2f5f8 !important;
+}
+
+@media (max-width: 767px) {
+    .col-md-6 {
+        width: 100%;
+        margin-bottom: 10px; /* Adapte conforme necessário */
+    }
+    .d-md-block {
+        display: none;
+    }
 }
