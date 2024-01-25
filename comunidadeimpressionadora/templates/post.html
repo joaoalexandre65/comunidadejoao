@@ -5,7 +5,7 @@
 
     <div class="container mt-3">
         <div class="row border mt-4 p-3 meupost">
-            <div class="col col-3">
+            <div class="col col-5">
                 <div class="image pe-2 d-md-block">
                     <img src="{{ url_for('static', filename='fotos_perfil/{}'.format(post.autor.foto_perfil)) }}" class="rounded" width="200" >
                 </div>
@@ -19,7 +19,7 @@
                     </div>
                 </div>
             </div>
-            <div class="p-5 col col-9">
+            <div class="p-5 col col-7">
                 <h3>{{ post.titulo }}
                 <small class="text-muted" style="font-size: 14px"> - Data de Criação: {{ post.data_criacao.strftime('%d/%m/%Y') }}
                     {% if form %}
